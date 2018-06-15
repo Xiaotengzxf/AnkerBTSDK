@@ -7,22 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01D76767024C00FD72AC713C6962DF09 /* BTOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = D970AA17B27C92CC3729422F4622339E /* BTOption.swift */; };
-		0B78BC78C116947A03FD358940A00C57 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C77A6136F6866B01D8352E976CBA0 /* Utility.swift */; };
-		3A830939089DE9F28467DCECD69D65DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		13A391C049022F1663BA8E01699FF3A8 /* AnkerBTSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD10C0572D83AFDF39492925642A600 /* AnkerBTSDK-dummy.m */; };
+		30D42E937B9A9DAFC11BC05866FEB4CA /* BTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264706216479C272DC73D999320C40F7 /* BTManager.swift */; };
+		40562A0853FD006FAAB026DE331E1360 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D43C19001DAFA2A9B9FB75F29FDAD11F /* UIKit.framework */; };
 		437755ECF366A32AC56430ACE09DDC21 /* Pods-AnkerBTSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8165C1A840F508F37DCF57C5D4C82116 /* Pods-AnkerBTSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55AA23C919F55EB7EB473AAF2576E283 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		55AA23C919F55EB7EB473AAF2576E283 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C5C2123569EDCF3DACD6F9401E2144 /* Foundation.framework */; };
+		5FFC41ED65B36CE0B0DFFAC225D7E906 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB0B040A96E74BB1DB5129EFB3AE9AC /* AVFoundation.framework */; };
 		6901C4C63250F7704D1FE1580B1BAF2F /* Pods-AnkerBTSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D0CAB5D54811CC33FF3DCC861C9EF1 /* Pods-AnkerBTSDK_Example-dummy.m */; };
-		8B7A9B7F8E339DFD0A7ED38C2DBC6A85 /* BLEPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DF5BDD176EE2DBB6E26C9E61AF622A /* BLEPeripheral.swift */; };
-		9822E77BC9D1D2B883962460500FACD3 /* AnkerBTSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A50B9B09F7A0D4B632112F16CEC9D5 /* AnkerBTSDK-dummy.m */; };
-		A74CFB9EB879BD61F037E2E32110E4F0 /* BLECentralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD8A1B57169873A5A7111CC5EAC1C8D /* BLECentralManager.swift */; };
-		B3CAB840520520F5F1265D328F25C44F /* BLEConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E0344778D9834A8C96B4FF2490543 /* BLEConnectionManager.swift */; };
-		C541D3877C320A50D3128113C525C363 /* SupportedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0720EEA9D1492DCAEED4878C20A909E /* SupportedService.swift */; };
-		CB1471CCB00CE968859E8C6FE5B1F64F /* AnkerBTSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99B062E1CE454A61FD37AD582B92E6E5 /* AnkerBTSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E3DD95C8E52026D63C93A80C458B72CD /* ClassicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DEC335C96A7AA1265E1C3479F93B06 /* ClassicManager.swift */; };
-		FBD53D3114F02BB1E913E9C02E70B719 /* BTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468A956302AF37441C8B25DFEB54BA18 /* BTManager.swift */; };
-		FBE11A44B2CC6E6E01A99374DF5E9AD4 /* BLEConnectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBC93949E9DBDDD406C8B658276593C /* BLEConnectionDelegate.swift */; };
-		FF0CFD1B1979E6FAB3474E416C6940D9 /* ClassicManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CFAA99B1986F1ECB51CCC1AC4781CA /* ClassicManagerDelegate.swift */; };
+		6BBAC51D048543BDB838443789E893EB /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC878450BA748F57327379C5EF1EB56 /* CoreBluetooth.framework */; };
+		AA1EAEF5C71FA304A0A1CE529F33DB21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C5C2123569EDCF3DACD6F9401E2144 /* Foundation.framework */; };
+		B5E20C863EAA95561C1099CDCD1589FE /* BTOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3CC7125D4A09C042184F357171C7BD /* BTOption.swift */; };
+		DACE4EF74B330F52A58C01E3586ED6BD /* AnkerBTSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B40BCEA0761AC39A731B6F3087CCD866 /* AnkerBTSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,56 +25,43 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 114D6D02C1AA753E2CD80CB699F7A764;
+			remoteGlobalIDString = 6843C74397758DC25B609E65A245569E;
 			remoteInfo = AnkerBTSDK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		011518CE9BB4BBA6887613E58DD817CB /* AnkerBTSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnkerBTSDK.xcconfig; sourceTree = "<group>"; };
 		02FD09369E7B4848E60E2AEE85ED70D9 /* Pods-AnkerBTSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnkerBTSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3FD8A1B57169873A5A7111CC5EAC1C8D /* BLECentralManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BLECentralManager.swift; sourceTree = "<group>"; };
-		43C21C4D3752D1ACFB2049DC7B2664AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		468A956302AF37441C8B25DFEB54BA18 /* BTManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BTManager.swift; path = AnkerBTSDK/Classes/BTManager.swift; sourceTree = "<group>"; };
-		530A8E342C138F6C26718BA98AE14CCE /* AnkerBTSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AnkerBTSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5984536220CC4DF7166E83BA435CD446 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0EB0B040A96E74BB1DB5129EFB3AE9AC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		264706216479C272DC73D999320C40F7 /* BTManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BTManager.swift; path = AnkerBTSDK/Classes/BTManager.swift; sourceTree = "<group>"; };
+		2AC878450BA748F57327379C5EF1EB56 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		43CCDA007CAB8D4284BE41A0DA7AEFFA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD10C0572D83AFDF39492925642A600 /* AnkerBTSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnkerBTSDK-dummy.m"; sourceTree = "<group>"; };
 		6173B3A24EAD250C5821B784FAD66C73 /* Pods-AnkerBTSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnkerBTSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		667C77A6136F6866B01D8352E976CBA0 /* Utility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
-		67CFAA99B1986F1ECB51CCC1AC4781CA /* ClassicManagerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClassicManagerDelegate.swift; sourceTree = "<group>"; };
+		622384C94C1A132CC16A7945DA1FF19C /* AnkerBTSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnkerBTSDK-prefix.pch"; sourceTree = "<group>"; };
 		6D09229FD9EB51725C07857AC668C240 /* AnkerBTSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AnkerBTSDK.framework; path = AnkerBTSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		77DF5BDD176EE2DBB6E26C9E61AF622A /* BLEPeripheral.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BLEPeripheral.swift; sourceTree = "<group>"; };
 		787305CC382B7204367A772B23B124EB /* Pods-AnkerBTSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnkerBTSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7D3CC7125D4A09C042184F357171C7BD /* BTOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BTOption.swift; path = AnkerBTSDK/Classes/BTOption.swift; sourceTree = "<group>"; };
 		7D9F433529B9B43D8CDBF6F302D62281 /* Pods-AnkerBTSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnkerBTSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7DBC93949E9DBDDD406C8B658276593C /* BLEConnectionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BLEConnectionDelegate.swift; sourceTree = "<group>"; };
 		8165C1A840F508F37DCF57C5D4C82116 /* Pods-AnkerBTSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnkerBTSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		8434496B047A0A23FC9037D22BF95724 /* AnkerBTSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnkerBTSDK.xcconfig; sourceTree = "<group>"; };
+		81A9CCB8437AA7BB1C8FF4DF48F98910 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		87D0CAB5D54811CC33FF3DCC861C9EF1 /* Pods-AnkerBTSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnkerBTSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		87D61F04FF65AC2AEC801119202A055C /* AnkerBTSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AnkerBTSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8E2279C6993B9117EF786FAEF01FFDEA /* Pods-AnkerBTSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnkerBTSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8ED269365A0BF70FBFA986BB7635459C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		99B062E1CE454A61FD37AD582B92E6E5 /* AnkerBTSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnkerBTSDK-umbrella.h"; sourceTree = "<group>"; };
-		A83E0344778D9834A8C96B4FF2490543 /* BLEConnectionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BLEConnectionManager.swift; sourceTree = "<group>"; };
+		9BB5B789F83E0BA0CC82973DC45CE491 /* AnkerBTSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AnkerBTSDK.modulemap; sourceTree = "<group>"; };
 		ACAC05D6B1413B2AF91ABF751F95E8B7 /* Pods-AnkerBTSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnkerBTSDK_Example-resources.sh"; sourceTree = "<group>"; };
-		B5A50B9B09F7A0D4B632112F16CEC9D5 /* AnkerBTSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnkerBTSDK-dummy.m"; sourceTree = "<group>"; };
-		B6CE4EC0B80455A845DCE8D01DF26ADA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		C1D2B075384BBA10E697B322616651F2 /* AnkerBTSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnkerBTSDK-prefix.pch"; sourceTree = "<group>"; };
-		C74BAC5CAEE3A17F1CEB5859C6791D4E /* AnkerBTSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AnkerBTSDK.modulemap; sourceTree = "<group>"; };
+		B40BCEA0761AC39A731B6F3087CCD866 /* AnkerBTSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnkerBTSDK-umbrella.h"; sourceTree = "<group>"; };
+		B72239FFE6A03B737EA8EF248734B009 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D43C19001DAFA2A9B9FB75F29FDAD11F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		D8E5E087C3FD7E9102C9B05083C628EF /* Pods_AnkerBTSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AnkerBTSDK_Example.framework; path = "Pods-AnkerBTSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9255E9DD1815BE10CD9CE097C7C250D /* Pods-AnkerBTSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AnkerBTSDK_Example.modulemap"; sourceTree = "<group>"; };
-		D970AA17B27C92CC3729422F4622339E /* BTOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BTOption.swift; path = AnkerBTSDK/Classes/BTOption.swift; sourceTree = "<group>"; };
-		E0720EEA9D1492DCAEED4878C20A909E /* SupportedService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SupportedService.swift; sourceTree = "<group>"; };
-		F9DEC335C96A7AA1265E1C3479F93B06 /* ClassicManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClassicManager.swift; sourceTree = "<group>"; };
+		F1C5C2123569EDCF3DACD6F9401E2144 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7D33B94319F8C7F41B900EABE2A54314 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3A830939089DE9F28467DCECD69D65DA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7EF800528E56D81656C6E86704D69EDC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -88,66 +70,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B2DE76FC501EFBE227AD45C3215A6A85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FFC41ED65B36CE0B0DFFAC225D7E906 /* AVFoundation.framework in Frameworks */,
+				6BBAC51D048543BDB838443789E893EB /* CoreBluetooth.framework in Frameworks */,
+				AA1EAEF5C71FA304A0A1CE529F33DB21 /* Foundation.framework in Frameworks */,
+				40562A0853FD006FAAB026DE331E1360 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17C1C5217307FA6066A61784544B29F1 /* Support Files */ = {
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C74BAC5CAEE3A17F1CEB5859C6791D4E /* AnkerBTSDK.modulemap */,
-				8434496B047A0A23FC9037D22BF95724 /* AnkerBTSDK.xcconfig */,
-				B5A50B9B09F7A0D4B632112F16CEC9D5 /* AnkerBTSDK-dummy.m */,
-				C1D2B075384BBA10E697B322616651F2 /* AnkerBTSDK-prefix.pch */,
-				99B062E1CE454A61FD37AD582B92E6E5 /* AnkerBTSDK-umbrella.h */,
-				43C21C4D3752D1ACFB2049DC7B2664AF /* Info.plist */,
+				73ED5ED8364B149807E3E74790DC965F /* iOS */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AnkerBTSDK";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		283E72E2DDCA31212C7DAE66983B9BC1 /* Development Pods */ = {
+		3D3ED0D224E0AA181B8FBD1BB1DA6304 /* AnkerBTSDK */ = {
 			isa = PBXGroup;
 			children = (
-				DDA54D26013EB9DCC6A4A6530DBAC3AB /* AnkerBTSDK */,
+				264706216479C272DC73D999320C40F7 /* BTManager.swift */,
+				7D3CC7125D4A09C042184F357171C7BD /* BTOption.swift */,
+				A47D481A9DA35BCCBEB4A1723D9CC848 /* Pod */,
+				F8CD6510B873B01D8F283451CB45B4C1 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = AnkerBTSDK;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		434BDF1B71F230AEBDAE8566E3CE98D4 /* Pod */ = {
+		73ED5ED8364B149807E3E74790DC965F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				530A8E342C138F6C26718BA98AE14CCE /* AnkerBTSDK.podspec */,
-				5984536220CC4DF7166E83BA435CD446 /* LICENSE */,
-				B6CE4EC0B80455A845DCE8D01DF26ADA /* README.md */,
+				0EB0B040A96E74BB1DB5129EFB3AE9AC /* AVFoundation.framework */,
+				2AC878450BA748F57327379C5EF1EB56 /* CoreBluetooth.framework */,
+				F1C5C2123569EDCF3DACD6F9401E2144 /* Foundation.framework */,
+				D43C19001DAFA2A9B9FB75F29FDAD11F /* UIKit.framework */,
 			);
-			name = Pod;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				283E72E2DDCA31212C7DAE66983B9BC1 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F2CDEA21CF9DF8691FDADDED2395AC8F /* Development Pods */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				F1CE23A773140F8461C9117AAFFF30A5 /* Products */,
 				9525D02073C6751DAD2A01696FE77A61 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7FC044BBC66F45F0E200041A4F2C240A /* BT */ = {
-			isa = PBXGroup;
-			children = (
-				3FD8A1B57169873A5A7111CC5EAC1C8D /* BLECentralManager.swift */,
-				7DBC93949E9DBDDD406C8B658276593C /* BLEConnectionDelegate.swift */,
-				A83E0344778D9834A8C96B4FF2490543 /* BLEConnectionManager.swift */,
-				77DF5BDD176EE2DBB6E26C9E61AF622A /* BLEPeripheral.swift */,
-				F9DEC335C96A7AA1265E1C3479F93B06 /* ClassicManager.swift */,
-				67CFAA99B1986F1ECB51CCC1AC4781CA /* ClassicManagerDelegate.swift */,
-				E0720EEA9D1492DCAEED4878C20A909E /* SupportedService.swift */,
-				667C77A6136F6866B01D8352E976CBA0 /* Utility.swift */,
-			);
-			name = BT;
-			path = AnkerBTSDK/Classes/BT;
 			sourceTree = "<group>";
 		};
 		92F343685274A6BD73586DF64AF8E204 /* Pods-AnkerBTSDK_Example */ = {
@@ -176,33 +152,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		A47D481A9DA35BCCBEB4A1723D9CC848 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				87D61F04FF65AC2AEC801119202A055C /* AnkerBTSDK.podspec */,
+				81A9CCB8437AA7BB1C8FF4DF48F98910 /* LICENSE */,
+				B72239FFE6A03B737EA8EF248734B009 /* README.md */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		DDA54D26013EB9DCC6A4A6530DBAC3AB /* AnkerBTSDK */ = {
-			isa = PBXGroup;
-			children = (
-				468A956302AF37441C8B25DFEB54BA18 /* BTManager.swift */,
-				D970AA17B27C92CC3729422F4622339E /* BTOption.swift */,
-				7FC044BBC66F45F0E200041A4F2C240A /* BT */,
-				434BDF1B71F230AEBDAE8566E3CE98D4 /* Pod */,
-				17C1C5217307FA6066A61784544B29F1 /* Support Files */,
-			);
-			name = AnkerBTSDK;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		F1CE23A773140F8461C9117AAFFF30A5 /* Products */ = {
@@ -212,6 +169,28 @@
 				D8E5E087C3FD7E9102C9B05083C628EF /* Pods_AnkerBTSDK_Example.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F2CDEA21CF9DF8691FDADDED2395AC8F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D3ED0D224E0AA181B8FBD1BB1DA6304 /* AnkerBTSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F8CD6510B873B01D8F283451CB45B4C1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BB5B789F83E0BA0CC82973DC45CE491 /* AnkerBTSDK.modulemap */,
+				011518CE9BB4BBA6887613E58DD817CB /* AnkerBTSDK.xcconfig */,
+				4DD10C0572D83AFDF39492925642A600 /* AnkerBTSDK-dummy.m */,
+				622384C94C1A132CC16A7945DA1FF19C /* AnkerBTSDK-prefix.pch */,
+				B40BCEA0761AC39A731B6F3087CCD866 /* AnkerBTSDK-umbrella.h */,
+				43CCDA007CAB8D4284BE41A0DA7AEFFA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AnkerBTSDK";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,24 +204,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A18099ED0DFF383DBC9E62451B5B23B /* Headers */ = {
+		2CB802A700F091C0EB2343C3AA71E16C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB1471CCB00CE968859E8C6FE5B1F64F /* AnkerBTSDK-umbrella.h in Headers */,
+				DACE4EF74B330F52A58C01E3586ED6BD /* AnkerBTSDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		114D6D02C1AA753E2CD80CB699F7A764 /* AnkerBTSDK */ = {
+		6843C74397758DC25B609E65A245569E /* AnkerBTSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C66EB78EA0D766CBB8E4DC5F2613AE0 /* Build configuration list for PBXNativeTarget "AnkerBTSDK" */;
+			buildConfigurationList = D9ABFCC2B07C32F846386849A301F625 /* Build configuration list for PBXNativeTarget "AnkerBTSDK" */;
 			buildPhases = (
-				FC54FC7017F2A0D2324F16ABE25552B6 /* Sources */,
-				7D33B94319F8C7F41B900EABE2A54314 /* Frameworks */,
-				9A18099ED0DFF383DBC9E62451B5B23B /* Headers */,
+				D15999AAD79A80C20A988DF9921E563B /* Sources */,
+				B2DE76FC501EFBE227AD45C3215A6A85 /* Frameworks */,
+				2CB802A700F091C0EB2343C3AA71E16C /* Headers */,
 			);
 			buildRules = (
 			);
@@ -292,7 +271,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				114D6D02C1AA753E2CD80CB699F7A764 /* AnkerBTSDK */,
+				6843C74397758DC25B609E65A245569E /* AnkerBTSDK */,
 				A16349F1064B0D13FAB19B71EC0C7550 /* Pods-AnkerBTSDK_Example */,
 			);
 		};
@@ -307,21 +286,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC54FC7017F2A0D2324F16ABE25552B6 /* Sources */ = {
+		D15999AAD79A80C20A988DF9921E563B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9822E77BC9D1D2B883962460500FACD3 /* AnkerBTSDK-dummy.m in Sources */,
-				A74CFB9EB879BD61F037E2E32110E4F0 /* BLECentralManager.swift in Sources */,
-				FBE11A44B2CC6E6E01A99374DF5E9AD4 /* BLEConnectionDelegate.swift in Sources */,
-				B3CAB840520520F5F1265D328F25C44F /* BLEConnectionManager.swift in Sources */,
-				8B7A9B7F8E339DFD0A7ED38C2DBC6A85 /* BLEPeripheral.swift in Sources */,
-				FBD53D3114F02BB1E913E9C02E70B719 /* BTManager.swift in Sources */,
-				01D76767024C00FD72AC713C6962DF09 /* BTOption.swift in Sources */,
-				E3DD95C8E52026D63C93A80C458B72CD /* ClassicManager.swift in Sources */,
-				FF0CFD1B1979E6FAB3474E416C6940D9 /* ClassicManagerDelegate.swift in Sources */,
-				C541D3877C320A50D3128113C525C363 /* SupportedService.swift in Sources */,
-				0B78BC78C116947A03FD358940A00C57 /* Utility.swift in Sources */,
+				13A391C049022F1663BA8E01699FF3A8 /* AnkerBTSDK-dummy.m in Sources */,
+				30D42E937B9A9DAFC11BC05866FEB4CA /* BTManager.swift in Sources */,
+				B5E20C863EAA95561C1099CDCD1589FE /* BTOption.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,113 +302,13 @@
 		474F3815679EAA49CA5EF14DB95CBBFD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AnkerBTSDK;
-			target = 114D6D02C1AA753E2CD80CB699F7A764 /* AnkerBTSDK */;
+			target = 6843C74397758DC25B609E65A245569E /* AnkerBTSDK */;
 			targetProxy = 1AFB4155900A2E12B71B75391F3B1677 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2AB827BC51ED6A9B3E2B7A0045A534B0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8434496B047A0A23FC9037D22BF95724 /* AnkerBTSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AnkerBTSDK/AnkerBTSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AnkerBTSDK/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AnkerBTSDK/AnkerBTSDK.modulemap";
-				PRODUCT_MODULE_NAME = AnkerBTSDK;
-				PRODUCT_NAME = AnkerBTSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2E9DD1FD533A08ACEC0AFE725F08504A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8434496B047A0A23FC9037D22BF95724 /* AnkerBTSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AnkerBTSDK/AnkerBTSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AnkerBTSDK/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AnkerBTSDK/AnkerBTSDK.modulemap";
-				PRODUCT_MODULE_NAME = AnkerBTSDK;
-				PRODUCT_NAME = AnkerBTSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8056558750CA7F5F1D8F1C5B86662F37 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 787305CC382B7204367A772B23B124EB /* Pods-AnkerBTSDK_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AnkerBTSDK_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AnkerBTSDK_Example/Pods-AnkerBTSDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -490,7 +361,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -500,7 +371,142 @@
 			};
 			name = Debug;
 		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+		87A2870911AF8E9369D5C24253A2E517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 011518CE9BB4BBA6887613E58DD817CB /* AnkerBTSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AnkerBTSDK/AnkerBTSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AnkerBTSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AnkerBTSDK/AnkerBTSDK.modulemap";
+				PRODUCT_MODULE_NAME = AnkerBTSDK;
+				PRODUCT_NAME = AnkerBTSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90D339487548AE548369CDDE8F1CFAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 011518CE9BB4BBA6887613E58DD817CB /* AnkerBTSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AnkerBTSDK/AnkerBTSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AnkerBTSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AnkerBTSDK/AnkerBTSDK.modulemap";
+				PRODUCT_MODULE_NAME = AnkerBTSDK;
+				PRODUCT_NAME = AnkerBTSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E8A659DC016C53E5F494F862B367A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 787305CC382B7204367A772B23B124EB /* Pods-AnkerBTSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AnkerBTSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnkerBTSDK_Example/Pods-AnkerBTSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E792AEEAC86A6820F025937339B68C82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6173B3A24EAD250C5821B784FAD66C73 /* Pods-AnkerBTSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AnkerBTSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnkerBTSDK_Example/Pods-AnkerBTSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -550,7 +556,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -558,58 +564,23 @@
 			};
 			name = Release;
 		};
-		E615D14E086A3E65C9A30E2CD88FA5B0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6173B3A24EAD250C5821B784FAD66C73 /* Pods-AnkerBTSDK_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AnkerBTSDK_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AnkerBTSDK_Example/Pods-AnkerBTSDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C66EB78EA0D766CBB8E4DC5F2613AE0 /* Build configuration list for PBXNativeTarget "AnkerBTSDK" */ = {
+		D9ABFCC2B07C32F846386849A301F625 /* Build configuration list for PBXNativeTarget "AnkerBTSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2AB827BC51ED6A9B3E2B7A0045A534B0 /* Debug */,
-				2E9DD1FD533A08ACEC0AFE725F08504A /* Release */,
+				87A2870911AF8E9369D5C24253A2E517 /* Debug */,
+				90D339487548AE548369CDDE8F1CFAF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -617,8 +588,8 @@
 		EB0C76C362CE26D61D62BF64B07E0B50 /* Build configuration list for PBXNativeTarget "Pods-AnkerBTSDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E615D14E086A3E65C9A30E2CD88FA5B0 /* Debug */,
-				8056558750CA7F5F1D8F1C5B86662F37 /* Release */,
+				E792AEEAC86A6820F025937339B68C82 /* Debug */,
+				9E8A659DC016C53E5F494F862B367A68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

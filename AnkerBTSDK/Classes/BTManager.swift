@@ -10,13 +10,13 @@ import UIKit
 public class BTManager: NSObject {
     
     public static let sharedInstance = BTManager()
-    private var classicManager: ClassicManager?
-    private let bleConnectManager = BLEConnectionManager.sharedInstance
+    //private var classicManager: ClassicManager?
+    //private let bleConnectManager = BLEConnectionManager.sharedInstance
     
     var option = BTOption() {
         didSet {
             if !option.bUseSDKOnlyForBLE {
-                classicManager = ClassicManager()
+                //classicManager = ClassicManager()
             }
         }
     }
