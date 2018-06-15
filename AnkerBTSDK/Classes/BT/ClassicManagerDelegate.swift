@@ -7,6 +7,8 @@
 
 import UIKit
 
-class ClassicManagerDelegate: NSObject {
-
+protocol ClassicManagerDelegate: NSObjectProtocol {
+    
+    
+    
 }

@@ -28,13 +28,13 @@ import CoreBluetooth
  Then, UI App will get the callback of onBLEConnectFinished()
  
  */
-public class BLEConnectionManager: NSObject {
+class BLEConnectionManager: NSObject {
     
     /**
      A shared, singleton instance, any operation must using this instance
      */
     static let sharedInstance = BLEConnectionManager()
-    private var _bleConnectionDelegates = [String: BLEConnectionDelegate]()
+    private var bleConnectionDelegates = [String: BLEConnectionDelegate]()
 
     private override init() {
         super.init()
@@ -45,21 +45,21 @@ public class BLEConnectionManager: NSObject {
      registerBLEConnectionListener - UI APP have to implement the BLEConnectionDelegate protocol and invoke this function to setup the delegate
      */
     public func registerBLEConnectionListener(name:String ,  delegate: BLEConnectionDelegate) {
-        self._bleConnectionDelegates[name] = delegate
+        bleConnectionDelegates[name] = delegate
     }
     
     /**
      unregisterBLEConnectionListener - after unregister the delegate, UI APP won't get the callback from framework
      */
     public func unregisterBLEConnectionListener(name:String) {
-        self._bleConnectionDelegates.removeValue(forKey: name)
+        bleConnectionDelegates.removeValue(forKey: name)
     }
     
     /**
      Connect BLE device, but please connect BT3.0 in system >> Bluetooth first.
      - parameter timeout: stop to connect BLE device if over timeout. If timeout value is 0, means only stop connect BLE device when the device is connected.
      */
-    public func connectBLE(timeout:Double) {
+    public func connectBLE(timeout: Double) {
         //2. scan BLE
         if timeout == 0.0 {
             BLECentralManager.sharedInstance.startScanForever()
@@ -75,37 +75,37 @@ public class BLEConnectionManager: NSObject {
     }
 
     func cbConnectBLE(result: BLEConnectResult) {
-        for delegate in self._bleConnectionDelegates {
+        for delegate in bleConnectionDelegates {
             delegate.1.onBLEConnectFinished(result: result)
         }
     }
     
     func cbReadyToConnect() {
-        for delegate in self._bleConnectionDelegates {
+        for delegate in bleConnectionDelegates {
             delegate.1.onReadyToConnect()
         }
     }
     
     func cbDisconnectedBLE() {
-        for delegate in self._bleConnectionDelegates {
+        for delegate in bleConnectionDelegates {
             delegate.1.onBLEDisconnected()
         }
     }
     
     func cbSystemBTStateChange(state: SystemBTState) {
-        for delegate in self._bleConnectionDelegates {
+        for delegate in bleConnectionDelegates {
             delegate.1.onSystemBTStateChange(state: state)
         }
     }
     
     func cbRSSIValue(rssi: NSNumber) {
-        for delegate in self._bleConnectionDelegates {
+        for delegate in bleConnectionDelegates {
             delegate.1.onBLERSSIValue(rssi: rssi)
         }
     }
     
     func bleDeviceScanFinished() {
-        for delegate in self._bleConnectionDelegates {
+        for delegate in bleConnectionDelegates {
             delegate.1.onBLEDeviceScanFinished()
         }
     }

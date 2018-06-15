@@ -1,0 +1,6 @@
+framework module AnkerBTSDK {
+  umbrella header "AnkerBTSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
